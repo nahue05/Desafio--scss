@@ -812,9 +812,7 @@
     grid-area: articulo8; }
   .articulo9 {
     grid-area: articulo9; }
-  /*ayuda*/ }
-
-@media screen and (min-width: 1024px) and (min-width: 1024px) {
+  /*ayuda*/
   /*ayuda*/
   .ayu-navegador {
     padding-top: 10px; }
@@ -860,9 +858,7 @@
     background-size: cover;
     width: 100%;
     height: 500px;
-    background-position: center; } }
-
-@media screen and (min-width: 1024px) {
+    background-position: center; }
   /*sobre nosotros*/
   .nos-navegador ul {
     list-style-type: none; }
