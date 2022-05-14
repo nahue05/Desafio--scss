@@ -1,3 +1,4 @@
+
 @import "variables";
 
 * {
@@ -31,6 +32,13 @@
     }
 }
 
+@each $red, $size in $redes {
+    .#{$red} {
+        height: $size;
+        width: $size;
+    }
+}
+
 /*responsive 320*/
 @media screen and (min-width:320px){
     .main-header {
@@ -53,12 +61,12 @@
         height: 70px;
     }
     .social {
+        
         a{
             img{
-                width: 40px;
-        height: 40px;
-        padding: 5px 15px ;
-        float: right;
+                
+                padding: 5px 15px ;
+                float: right;
             }
         }
     }
@@ -497,8 +505,7 @@ text-align: right;
     .social{
         a{
             img{
-                width: 50px;
-                height: 50px;
+                
                 padding: 5px 15px;
                 float: right;
             }
@@ -981,11 +988,13 @@ text-align: right;
             }
         
     }
+
+    
+
     .social{
         a{
             img{
-                width: 55px;
-                height: 55px;
+                
                 padding: 5px 15px;
                 float: right;
             }
@@ -1357,3 +1366,4 @@ p {
 h4 {
     margin-bottom: 0;
 }
+
