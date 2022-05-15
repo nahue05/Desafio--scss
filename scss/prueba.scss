@@ -100,11 +100,12 @@
     }
 
     .seccion-2 {
+        @extend .footer-linkreg;
         background-color: #bba76f;
         padding-left: 15px ;
         padding-right: 15px;
         padding-top: 20px;
-        padding-bottom: 20px;
+        
             h3{
                 font-family:'Josefin Sans', sans-serif ;
         font-size: 1rem;
@@ -113,7 +114,7 @@
             }
             p{
                 font-size: 12px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
         
         
@@ -1132,7 +1133,7 @@ text-align: right;
                 width: 500px;
                 height: 400px;
             }
-    }
+        }
 
     /*catalogo*/
     .cat-navegador{
@@ -1319,8 +1320,8 @@ text-align: right;
                 }
             }
     }
-}
 
+}
 
 /*fin del responsive*/
 
@@ -1348,6 +1349,7 @@ text-align: right;
 
 
 .footer {
+    
     font-family:'Josefin Sans', sans-serif ;
     text-align: center;
     padding: 20px;
