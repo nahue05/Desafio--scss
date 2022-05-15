@@ -39,6 +39,12 @@
     }
 }
 
+@mixin fotos($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+    
+}
+
 /*responsive 320*/
 @media screen and (min-width:320px){
     .main-header {
@@ -271,8 +277,7 @@
             background-color: #bba76f;
         }
         img{
-            height: 200px;
-            width: 100%;
+            @include fotos(200px, 100%);
             padding-bottom: 60px;
             padding-top: 60px;
         }
@@ -459,8 +464,7 @@ text-align: right;
             background-color: #bba76f;
         }
         img{
-            height: 275px;
-            width: 100%;
+            @include fotos(275px, 100%);
             padding-bottom: 60px;
             padding-top: 60px;
         }
@@ -817,8 +821,7 @@ text-align: right;
             background-color: #bba76f;
         }
         img{
-            height: 325px;
-            width: 100%;
+            @include fotos(325px, 100%);
             padding-bottom: 60px;
             padding-top: 60px;
         }
@@ -879,8 +882,7 @@ text-align: right;
             background-color: #bba76f;
         }
         img{
-            height: 400px;
-            width: 100%;
+            @include fotos(400px, 100%);
             padding-bottom: 60px;
             padding-top: 60px;
         }
@@ -933,8 +935,7 @@ text-align: right;
             background-color: #bba76f;
         }
         img{
-            height: 500px;
-            width: 100%;
+            @include fotos(500px, 100%);
             padding-bottom: 60px;
             padding-top: 60px;
         }
